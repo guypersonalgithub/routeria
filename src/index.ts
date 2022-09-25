@@ -4,4 +4,13 @@ import { useQueryParams } from "./hooks/useQueryParams";
 import { usePath } from "./hooks/usePath";
 import { useGuards } from "./hooks/useGuards";
 import { RouterPaths, RouterGuards } from "./router/router.types";
-export { Router, useRouteParams, useQueryParams, usePath, useGuards, RouterPaths, RouterGuards, };
+
+export {
+  Router,
+  useRouteParams,
+  useQueryParams,
+  usePath,
+  useGuards,
+  RouterPaths,
+  RouterGuards,
+};
